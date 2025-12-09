@@ -62,6 +62,7 @@ Abra o terminal no projeto Backend
 
 Execute:
 ```
+```
 Add-Migration Initial
 Update-Database
 ```
