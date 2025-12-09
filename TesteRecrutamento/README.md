@@ -21,7 +21,7 @@ Permite criar, listar, filtrar, atualizar o status e excluir tarefas, com datas 
 ---
 
 ## 📁 Estrutura do Projeto
-
+````
 /GerenciadorDeTarefas.Application
 /GerenciadorDeTarefas.Domain
 /GerenciadorDeTarefas.Infrastructure
@@ -31,7 +31,7 @@ Permite criar, listar, filtrar, atualizar o status e excluir tarefas, com datas 
 index.html
 style.css
 script.js
-
+````
 
 ---
 
@@ -81,30 +81,34 @@ DataCriacao
 
 DataConclusao
 
+---
 ▶️ Como Rodar o Projeto
+
 👉 1. Backend (API)
 
 No diretório do backend:
-
+```
 dotnet restore
 dotnet build
 dotnet run
-
+```
 
 A API iniciará em algo como:
-
+```
 https://localhost:7035
 http://localhost:5027
+```
 
 👉 2. Frontend
 
 Basta abrir o arquivo:
 
-Frontend/index.html
-
+frontend/index.html
 
 em qualquer navegador moderno.
 
+
+---
 ✔️ Funcionamento
 
 Criar tarefas
@@ -123,6 +127,8 @@ Excluir tarefa
 
 Datas exibidas nos cards
 
+
+---
 🙋 Sobre o Autor
 
 Projeto desenvolvido por Frederico como parte de avaliação técnica.
